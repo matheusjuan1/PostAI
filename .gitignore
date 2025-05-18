@@ -1,5 +1,28 @@
 # Virtual environment
 .venv/
+venv/
+env/
+ENV/
+pyvenv.cfg
 
-# Environment variable files
 .env
+*.ini
+*.cfg
+local_settings.py
+
+*.pyc
+__pycache__/
+*.pyd
+*.egg-info
+dist/
+build/
+sdist/
+
+*.log
+*.tmp
+*.swp
+*.bak
+*.dump
+
+.DS_Store      # macOS
+Thumbs.db      # Windows
